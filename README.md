@@ -60,7 +60,7 @@ pip install numpy pandas matplotlib seaborn scikit-learn tensorflow
 1. Clone the repository:
    git clone https://github.com/ali-kanbar/CNN-From-Scratch.git
 
-2. Open `NumPy_CNN_From_Scratch.ipynb` in Jupyter Notebook, VS Code, or Google Colab.
+2. Open `Code.ipynb` in Jupyter Notebook, VS Code, or Google Colab.
 
 3. Run all cells sequentially.
 

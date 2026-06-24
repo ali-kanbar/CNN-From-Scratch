@@ -70,15 +70,13 @@ To prove the network is learning true spatial features, the notebook includes bu
 
 By intercepting the matrix data immediately after the `Conv` layer, we can physically see the edges and structures the network's filter is focusing on:
 
-*(Add a screenshot of your Feature Map plot here)*
-> `!<img width="975" height="506" alt="image" src="https://github.com/user-attachments/assets/76b4cd91-7b04-4b31-bb50-190326591230" />`
+<img width="975" height="506" alt="image" src="https://github.com/user-attachments/assets/6d789c55-7038-4b37-ba18-eaa71fb4d5fc" />
 
 ### 2. The Confusion Matrix
 
 Evaluated on the unseen 10% Test Split to diagnose exact class confusions (e.g., mistaking a Pullover for a Coat):
 
-*(Add a screenshot of your Seaborn Confusion Matrix here)*
-> `!<img width="990" height="789" alt="image" src="https://github.com/user-attachments/assets/46615d0e-8c97-47b9-bfc5-f4dcd09e9a6e" />`
+<img width="990" height="789" alt="image" src="https://github.com/user-attachments/assets/091e7351-54ef-42fd-ad5a-beab143278a1" />
 
 ## 🎓 Author
 

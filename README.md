@@ -33,27 +33,27 @@ Input Image (28x28)
  
      ↓
   
-[ Conv Layer ] (3x3 Filter) -> Outputs (26x26)
+   [ Conv Layer ] (3x3 Filter) -> Outputs (26x26)
   
      ↓
   
-[ ReLU Activation ] -> Zeroes out negative weights
+   [ ReLU Activation ] -> Zeroes out negative weights
   
      ↓
   
-[ Max Pooling ] (2x2 Window) -> Downsamples to (13x13)
+   [ Max Pooling ] (2x2 Window) -> Downsamples to (13x13)
   
      ↓
   
-[ Reshape ] -> Flattens to a 169-dimensional vector
+   [ Reshape ] -> Flattens to a 169-dimensional vector
   
      ↓
   
-[ Dense Layer ] -> Maps 169 features to 10 output classes
+   [ Dense Layer ] -> Maps 169 features to 10 output classes
   
      ↓
   
-[ Softmax ] -> Converts outputs to 10% - 100% probabilities
+   [ Softmax ] -> Converts outputs to 10% - 100% probabilities
 
 ## 🚀 Getting Started
 

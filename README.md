@@ -29,19 +29,21 @@ The network is trained and evaluated on the **Fashion MNIST** dataset, classifyi
 
 ## 🏗️ Network Architecture
 
-Input Image (28x28) 
-  ↓
-[ Conv Layer ] (3x3 Filter) -> Outputs (26x26)
-  ↓
-[ ReLU Activation ] -> Zeroes out negative weights
-  ↓
-[ Max Pooling ] (2x2 Window) -> Downsamples to (13x13)
-  ↓
-[ Reshape ] -> Flattens to a 169-dimensional vector
-  ↓
-[ Dense Layer ] -> Maps 169 features to 10 output classes
-  ↓
-[ Softmax ] -> Converts outputs to 10% - 100% probabilities
+```text
+[ Input Image ]        28x28 normalized pixels
+      ↓
+[ Conv Layer ]         3x3 Filter  →  Outputs: 26x26
+      ↓
+[ ReLU ]               Zeroes out negative weights
+      ↓
+[ Max Pooling ]        2x2 Window  →  Downsamples to: 13x13
+      ↓
+[ Reshape ]            Flattens to a 169-dimensional vector
+      ↓
+[ Dense Layer ]        Maps 169 features to 10 output classes
+      ↓
+[ Softmax ]            Converts outputs to probabilities (0-100%)
+```
 
 ## 🚀 Getting Started
 

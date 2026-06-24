@@ -77,8 +77,3 @@ By intercepting the matrix data immediately after the `Conv` layer, we can physi
 Evaluated on the unseen 10% Test Split to diagnose exact class confusions (e.g., mistaking a Pullover for a Coat):
 
 <img width="990" height="789" alt="image" src="https://github.com/user-attachments/assets/091e7351-54ef-42fd-ad5a-beab143278a1" />
-
-## 🎓 Author
-
-**Ali Kanbar**
-Built as a deep-dive into AI architecture and tensor calculus.

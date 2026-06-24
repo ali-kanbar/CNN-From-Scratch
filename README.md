@@ -31,7 +31,7 @@ The network is trained and evaluated on the **Fashion MNIST** dataset, classifyi
 
 ```text
 [ Input Image ]        28x28 normalized pixels
-   ↓
+      ↓
 [ Conv Layer ]         3x3 Filter  →  Outputs: 26x26
       ↓
 [ ReLU ]               Zeroes out negative weights

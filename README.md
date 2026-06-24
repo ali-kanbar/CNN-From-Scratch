@@ -32,7 +32,9 @@ The network is trained and evaluated on the **Fashion MNIST** dataset, classifyi
 Input Image (28x28) 
   ↓
 [ Conv Layer ] (3x3 Filter) -> Outputs (26x26)
+  
   ↓
+  
 [ ReLU Activation ] -> Zeroes out negative weights
   ↓
 [ Max Pooling ] (2x2 Window) -> Downsamples to (13x13)
